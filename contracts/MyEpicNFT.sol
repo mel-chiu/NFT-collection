@@ -29,7 +29,7 @@ contract MyEpicNFT is ERC721URIStorage {
   string[] secondWords = ["Ming", "Rong", "Liang", "Fang", "Ping", "An"];
   string[] thirdWords = ["Lee", "Lin", "Wang", "Yang", "Chang", "Huang"];
   // Get fancy with it! Declare a bunch of colors.
-  string[] colors = ["red", "#08C2A8", "black", "yellow", "blue", "green"];
+  string[] colors = ["#F8B195", "#F67280", "#000000", "#C06C84", "#6C5B7B", "#355C7D"];
 
   event NewEpicNFTMinted(address sender, uint256 tokenId);
 
